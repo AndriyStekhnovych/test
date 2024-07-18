@@ -1,0 +1,58 @@
+#root {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+form {
+  margin-top: 5px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
+  color: #8643DC;
+  font-size: 20px;
+  > input[type='text'] {
+    width: 100%;
+    padding: 0 0 17px 0;
+    border: none;
+    border-bottom: 1px solid #DAD2E3;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+    font-size: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    color: #A8A0B0;
+    margin-top: 45px;
+  }
+  >button {
+    margin-top: 50px;
+  }
+    
+}
+
+.fileuploadtext {
+  color: #8643DC;
+  font-size: 18px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+}
+
+.fileuploadtext {
+  margin-top: 8px;
+}
+
+.form-b {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media screen and (max-width:575px) {
+  .form-b {
+    justify-content: center;
+    display: block;
+    
+  }
+  
+}
